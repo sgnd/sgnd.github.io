@@ -1,0 +1,25 @@
+html, body {
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden; }
+
+body {
+  background: #3C3C48;
+  color: #FFF;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; }
+
+a {
+  color: #98B15F; }
+
+.align--center {
+  text-align: center; }
+
+.centerer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); }

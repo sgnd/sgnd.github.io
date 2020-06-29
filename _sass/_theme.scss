@@ -1,0 +1,32 @@
+body, html {
+	font-size: 20px;
+	font-family: $sans-serif;
+	line-height: 1.667;
+}
+
+a {
+	color: $green;
+	transition: color 0.3s ease-in;
+}
+
+a:hover {
+	color: darken($green, 20%);
+}
+
+img.profile {
+	max-width: 150px;
+	border-radius: 50rem 50rem;
+	@media #{$breakpoint-md} {
+    min-width: inherit;
+    max-width: 150px;
+    margin-left: inherit;
+  }
+}
+
+.post img:not(.emoji) {
+  max-width: 100%;
+  @media #{$breakpoint-md} {
+    max-width: 110%;
+    margin-left: -5%;
+  }
+}

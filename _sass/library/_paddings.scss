@@ -1,0 +1,13 @@
+@for $i from 1 through 4{
+  .p#{$i} { padding:($i * 1rem); }
+  .pt#{$i} { padding-top:($i * 1rem); }
+  .pr#{$i} { padding-right:($i * 1rem); }
+  .pb#{$i} { padding-bottom:($i * 1rem); }
+  .pl#{$i} { padding-left:($i * 1rem); }
+}
+
+.phalf{ padding: 0.5rem; }
+.pthalf { padding-top: 0.5rem; }
+.prhalf { padding-right: 0.5rem; }
+.pbhalf { padding-bottom: 0.5rem; }
+.plhalf { padding-left: 0.5rem; }

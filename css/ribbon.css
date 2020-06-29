@@ -1,0 +1,33 @@
+.ribbon--left {
+  background: #FFF;
+  color: #000;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 0.625em 3em;
+  position: absolute;
+  text-decoration: none;
+  top: 2.875em;
+  z-index: 99999;
+  left: -3.125em;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg); }
+
+.ribbon--right {
+  background: #FFF;
+  color: #000;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 0.625em 3em;
+  position: absolute;
+  text-decoration: none;
+  top: 2.875em;
+  z-index: 99999;
+  right: -3.125em;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg); }

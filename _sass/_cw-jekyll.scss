@@ -1,0 +1,49 @@
+
+@import "cw-jekyll/variables";
+@import "cw-jekyll/base-reset";
+@import "cw-jekyll/base-forms";
+@import "cw-jekyll/base-tables";
+@import "cw-jekyll/base-typography";
+@import "cw-jekyll/color-base";
+@import "cw-jekyll/color-forms";
+@import "cw-jekyll/color-tables";
+@import "cw-jekyll/btn";
+@import "cw-jekyll/btn-primary";
+@import "cw-jekyll/btn-outline";
+@import "cw-jekyll/type-scale";
+@import "cw-jekyll/utility-typography";
+@import "cw-jekyll/utility-layout";
+@import "cw-jekyll/align";
+@import "cw-jekyll/white-space";
+@import "cw-jekyll/positions";
+@import "cw-jekyll/responsive-states";
+@import "cw-jekyll/grid";
+@import "cw-jekyll/flex-object";
+@import "cw-jekyll/borders";
+@import "cw-jekyll/colors";
+@import "cw-jekyll/background-colors";
+@import "cw-jekyll/background-images";
+@import "cw-jekyll/border-colors";
+@import "cw-jekyll/btn-sizes";
+@import "cw-jekyll/color-forms-dark";
+@import "cw-jekyll/color-input-range";
+@import "cw-jekyll/color-progress";
+@import "cw-jekyll/highlight";
+@import "cw-jekyll/input-range";
+@import "cw-jekyll/progress";
+@import "cw-jekyll/responsive-white-space";
+@import "cw-jekyll/table-object";
+@import "cw-jekyll/ui-utility-groups";
+@import "cw-jekyll/utility-headings";
+
+html, body{
+  font-size: 18px;
+}
+
+body{
+  color: $black;
+}
+
+h1,h2,h3,h4,h5,h6{
+  letter-spacing: 1px;
+}

@@ -1,0 +1,28 @@
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather:700|Source+Sans+Pro:400,400i,600" rel="stylesheet">
+
+  <title>{% if page.title %}{{ page.title | escape | remove: ':clap:' | strip }} / {{site.name | escape }}{% else %}{{ site.name | escape }}{% endif %}</title>
+
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | strip | truncate: 160 }}{% else %}{{ site.description | strip }}{% endif %}">
+  <meta property="og:title" content="{% if page.title %}{{ page.title | escape | remove: ':clap:' | strip }} / {{site.name | escape }}{% else %}{{ site.name | escape }}{% endif %}">
+  <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <meta property="og:site_name" content="{{ site.name | escape }}">
+  <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | strip | truncate: 160 }}{% else %}{{ site.description | strip }}{% endif %}">
+  <meta property="og:image" content="{{ site.profile_image_link }}">
+  <meta property="og:type" content="website">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@sugandaaa_">
+  <meta name="twitter:creator" content="@sugandaaa_">
+  <meta name="twitter:title" content="{% if page.title %}{{ page.title | escape | remove: ':clap:' | strip }} / {{site.name | escape }}{% else %}{{ site.name | escape }}{% endif %}">
+  <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | strip | truncate: 160 }}{% else %}{{ site.description | strip }}{% endif %}">
+  <meta name="twitter:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <meta name="twitter:image" content="{{ site.profile_image_link }}">
+
+  <link rel="stylesheet" href="{{ "/css/styles.css" | prepend: site.baseurl }}">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+</head>

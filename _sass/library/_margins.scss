@@ -1,0 +1,15 @@
+@for $i from 0 through 6{
+  .m#{$i} { margin:($i * 1rem); }
+  .mt#{$i} { margin-top:($i * 1rem); }
+  .mr#{$i} { margin-right:($i * 1rem); }
+  .mb#{$i} { margin-bottom:($i * 1rem); }
+  .ml#{$i} { margin-left:($i * 1rem); }
+}
+
+.mx-auto { margin-left: auto; margin-right: auto; }
+
+.mhalf { margin: 0.5rem; }
+.mthalf { margin-top: 0.5rem; }
+.mrhalf { margin-right: 0.5rem; }
+.mbhalf { margin-bottom: 0.5rem; }
+.mlhalf { margin-left: 0.5rem; }

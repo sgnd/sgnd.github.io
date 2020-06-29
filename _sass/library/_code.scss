@@ -1,0 +1,13 @@
+code{
+  font-size: 0.825rem;
+  background: $light-gray;
+  padding: 0.125rem;
+  border-radius: 2px;
+}
+
+pre code {
+  padding: 0.5rem;
+  white-space: pre;
+  overflow: auto;
+  display: block;
+}

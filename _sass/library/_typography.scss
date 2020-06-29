@@ -1,0 +1,32 @@
+.serif{
+  font-family: $serif;
+}
+
+.sans-serif{
+  font-family: $sans-serif;
+}
+
+.align-center{
+  text-align: center;
+}
+
+.align-left{
+  text-align: left;
+}
+
+.align-right{
+  text-align: right;
+}
+
+.italic{
+  font-style: italic;
+}
+
+.underline-none {
+  text-decoration: none;
+  border-bottom: none;
+}
+
+.bold {
+  font-weight: 600;
+}

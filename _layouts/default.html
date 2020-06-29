@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+<body>
+  <main class="site-main mt5 pl1 pr1">
+    <div class="md-col-5 lg-col-4 col-12 mx-auto">
+      {{ content }}
+    </div>
+  </main>
+  {% include footer.html %}
+  <script src="https://code.jquery.com/jquery-2.2.2.min.js" integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI=" crossorigin="anonymous"></script>
+  {% if site.google_analytics %}
+    {% if jekyll.environment == "production" %}
+{% include analytics.html %}
+    {% endif %}
+  {% endif %}
+</body>
+</html>

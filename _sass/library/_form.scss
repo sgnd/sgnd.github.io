@@ -1,0 +1,57 @@
+.input {
+  font-family: inherit;
+  font-size: inherit;
+  display: block;
+  width: 100%;
+  padding: .25rem;
+  border: 1px solid $light-gray;
+  box-sizing: border-box;
+  border-radius: $border-radius-value;
+  transition: border-color 0.25s ease-in;
+  box-shadow: 0;
+}
+
+.input{
+  &::placeholder {
+   color: $gray;
+  }
+  &:focus{
+    border-color: $gray;
+    outline: none;
+  }
+}
+
+.field_with_errors .input{
+  border-color: rgba($red, 0.6);
+}
+
+.error{
+  margin-bottom: 1rem;
+}
+
+.error-title{
+  background: $red;
+  padding: 0.5rem;
+  color: $white;
+  text-align: center;
+  border-top-left-radius: $border-radius-value;
+  border-top-right-radius: $border-radius-value;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.error-list{
+  border-left: 1px solid $light-gray;
+  border-right: 1px solid $light-gray;
+  border-bottom: 1px solid $light-gray;
+  margin: 0;
+  padding: 0.5rem 0.5rem 0.5rem 2.25rem;
+  border-bottom-left-radius: $border-radius-value;
+  border-bottom-right-radius: $border-radius-value;
+  li{
+    margin-top: 0.5rem;
+    &:first-of-type{
+      margin-top: 0;
+    }
+  }
+}

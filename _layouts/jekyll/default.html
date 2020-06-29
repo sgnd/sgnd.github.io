@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+
+  {% include jekyll/head.html %}
+
+  <body>
+    <div class="col-11 sm-col-8 mx-auto">
+      <main>
+        {{ content }}
+      </main>
+      {% include jekyll/footer.html %}
+    </div>
+    {% if jekyll.environment == "production" %}
+      {% include analytics.html %}
+    {% endif %}
+  </body>
+
+</html>

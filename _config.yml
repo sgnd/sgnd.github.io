@@ -1,0 +1,42 @@
+name: "Sugeng Agung Suganda"
+description: "Full-stack developer, blogger and designer."
+baseurl: ""
+url: ""
+s3: ""
+tinywins_s3: ""
+dropbox: ""
+twitter: "https://twitter.com/sugandaaa_"
+newsletter: ""
+profile_image_link: profile.jpg
+
+google_analytics: ""
+
+markdown: kramdown
+permalink: /:title/
+keep_files: [assets]
+
+sass:
+  style: :compressed
+
+plugins:
+  - "jemoji"
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      slug: null
+
+exclude:
+  - "update_assets.sh"
+  - "update_server.sh"
+  - "package.json"
+  - "gulpfile.js"
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "README.md"
+  - ".env"
+  - ".env_sample"
+  - "s3_website.yml"
+  - "publish.sh"

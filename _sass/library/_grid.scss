@@ -1,0 +1,34 @@
+.col{
+  float: left;
+  box-sizing: border-box;
+}
+
+@for $i from 1 through 12{
+  .col-#{$i} { width:($i/12 * 100%); }
+}
+
+@media #{$breakpoint-sm} {
+  @for $i from 1 through 12{
+    .sm-col-#{$i} { width:($i/12 * 100%); }
+  }
+}
+
+@media #{$breakpoint-md} {
+  @for $i from 1 through 12{
+    .md-col-#{$i} { width:($i/12 * 100%); }
+  }
+}
+
+@media #{$breakpoint-lg} {
+  @for $i from 1 through 12{
+    .lg-col-#{$i} { width:($i/12 * 100%); }
+  }
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table
+}
+
+.clearfix:after { clear: both }
