@@ -2,11 +2,7 @@ name: "Sugeng Agung Suganda"
 description: "DevOps Engineer"
 baseurl: ""
 url: ""
-s3: ""
-tinywins_s3: ""
-dropbox: ""
 twitter: "https://twitter.com/sugandaaa_"
-newsletter: ""
 profile_image_link: profile.jpg
 
 google_analytics: ""
